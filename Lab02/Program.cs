@@ -48,7 +48,7 @@ namespace Lab02
             int level = 1;
             int maxHp = 250;
             float Power = 10f;
-            double Special Power = 1.75;
+            double Special_Power = 20.75;
             bool isAliveS = true;
 
 
