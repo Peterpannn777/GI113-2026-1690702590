@@ -40,8 +40,8 @@
             Console.WriteLine("\n----CAST vs. CONVERT: Critical Multiplier  ----");
             int critMultiplierIntCast = (int)critMultiplier;
             int critMultiplierIntConvert = Convert.ToInt32(critMultiplier);
-            Console.WriteLine($"Critical Multiplier (int cast): {critMultiplierIntCast}");
-            Console.WriteLine($"Critical Multiplier (Convert rounded): {critMultiplierIntConvert}");
+            Console.WriteLine($"Crit Multiplier (int cast): {critMultiplierIntCast}");
+            Console.WriteLine($"Crit Multiplier (Convert rounded): {critMultiplierIntConvert}");
         }
     }
 }
