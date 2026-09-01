@@ -25,7 +25,8 @@ namespace Lab02
             Console.WriteLine($"Rank: {rank}");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             Console.WriteLine($"Attack Power : {attackPower}");
-            Console.WriteLine($"Crit Multiplier : {critMultiplier}");
+            Console.WriteLine($"Crit Multiplier : {critMultiplier}X");
+            Console.WriteLine($"Crit Multiplier : {critMultiplier}X     ");
             Console.WriteLine($"Is Boss : {isBoss}");
            
             Console.WriteLine();
@@ -51,6 +52,67 @@ namespace Lab02
             double Special_Power = 20.75;
             bool isAliveS = true;
 
+            //////// 1. อัศวินนักรบ (Knight) //////////
+            string knightName = "Arthur";
+            int knightLevel = 45;
+            double knightMaxHp = 1250.50;
+            char knightRank = 'S';
+            bool knightIsShieldEquipped = true;
+
+            Console.WriteLine($"--- Character 1: {knightName} ---");
+            Console.WriteLine($"Name: {knightName}");
+            Console.WriteLine($"Level: {knightLevel}");
+            Console.WriteLine($"Max HP: {knightMaxHp}");
+            Console.WriteLine($"Guild Rank: {knightRank}");
+            Console.WriteLine($"Shield Equipped: {knightIsShieldEquipped}");
+            Console.WriteLine();
+
+            //////// 2. Character: Mage (จอมเวท) //////////
+            string mageName = "Elena";
+            int mageMana = 850;
+            float mageSpellPower = 245.75f;
+            char mageRank = 'A';
+            bool mageIsStunned = false;
+
+            Console.WriteLine($"--- Character 2: {mageName} ---");
+            Console.WriteLine($"Name: {mageName}");
+            Console.WriteLine($"Mana: {mageMana}");
+            Console.WriteLine($"Spell Power: {mageSpellPower}");
+            Console.WriteLine($"Guild Rank: {mageRank}");
+            Console.WriteLine($"Is Stunned: {mageIsStunned}");
+            Console.WriteLine();
+
+            ////////3.Character: Rogue(โจร)////////
+            string rogueName = "Shadow";
+            float rogueSpeed = 12.5f;
+            double rogueCritRate = 45.85;
+            char rogueRank = 'B';
+            bool rogueIsStealthed = true;
+
+            Console.WriteLine($"--- Character 3: {rogueName} ---");
+            Console.WriteLine($"Name: {rogueName}");
+            Console.WriteLine($"Move Speed: {rogueSpeed}");
+            Console.WriteLine($"Critical Rate: {rogueCritRate}%");
+            Console.WriteLine($"Guild Rank: {rogueRank}");
+            Console.WriteLine($"In Stealth: {rogueIsStealthed}");
+            Console.WriteLine();
+
+            ///////4.Character: Archer(นักธนู)///////
+            string archerName = "Robin";
+            int archerArrowCount = 99;
+            float archerAttackRange = 35.0f;
+            double archerAccuracy = 98.42;
+            bool archerIsPoisonActive = false;
+
+            Console.WriteLine($"--- Character 4: {archerName} ---");
+            Console.WriteLine($"Name: {archerName}");
+            Console.WriteLine($"Arrows Remaining: {archerArrowCount}");
+            Console.WriteLine($"Attack Range: {archerAttackRange} meters");
+            Console.WriteLine($"Accuracy: {archerAccuracy}%");
+            Console.WriteLine($"Poison Coating Active: {archerIsPoisonActive}");
+
+
+
 
 
 
@@ -62,3 +124,12 @@ namespace Lab02
         }
     }
 }
+
+
+
+
+
+
+
+
+
