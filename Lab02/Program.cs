@@ -28,7 +28,7 @@ namespace Lab02
             Console.WriteLine($"Crit Multiplier : {critMultiplier}X");
             Console.WriteLine($"Crit Multiplier : {critMultiplier}X     ");
             Console.WriteLine($"Is Boss : {isBoss}");
-           
+
             Console.WriteLine();
             //คำนวนเปอร์เซ๋น
             int hpPercent = currentHp = 100 / maxHp;
@@ -41,7 +41,7 @@ namespace Lab02
             Console.WriteLine();
             Console.WriteLine("===== Boss STATUS : AFTER DAMAGE=====");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
-            hpPercent= currentHp * 100 / maxHp;
+            hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent : {hpPercent}%");
 
             //////// 1. อัศวินนักรบ (Knight) //////////
