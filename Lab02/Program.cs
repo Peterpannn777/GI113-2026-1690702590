@@ -43,14 +43,6 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent= currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent : {hpPercent}%");
-           
-            string bossName = "Ignis";
-            char Role = 'M'; // M role = Mage
-            int level = 1;
-            int maxHp = 250;
-            float Power = 10f;
-            double Special_Power = 20.75;
-            bool isAliveS = true;
 
             //////// 1. อัศวินนักรบ (Knight) //////////
             string knightName = "Arthur";
