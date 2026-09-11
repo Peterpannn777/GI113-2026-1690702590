@@ -12,33 +12,35 @@ namespace Assignment01
     {
         static void Main(string[] args)
         {
-            const string GameTitle = "Mech Frontier";
+            const string WorldName = "Moonlight Trails";
 
-            var mechName = "Aegis Runner";
-            var mechClass = 'S';
-            int reactorLevel = 42;
-            float boostCharge = 0.85f;
-            double armorIntegrity = 73.6;
-            bool isMissionReady = true;
+            var petName = "Mochi";
+            var petRarity = 'R';
+            int friendshipLevel = 27;
+            float snackMeter = 0.62f;
+            double runningSpeed = 18.7;
+            bool hasFoundTreasure = false;
 
-            double reactorLevelDisplay = reactorLevel;
-            int armorTruncated = (int)armorIntegrity;
-            int armorRounded = Convert.ToInt32(armorIntegrity);
+            double friendshipPoints = friendshipLevel;
+            int speedWithoutDecimal = (int)runningSpeed;
+            int speedRounded = Convert.ToInt32(runningSpeed);
 
-            Console.WriteLine($"========================================");
-            Console.WriteLine($"          {GameTitle} : MECH STATUS");
-            Console.WriteLine($"========================================");
-            Console.WriteLine($"Unit Name       : {mechName}");
-            Console.WriteLine($"Combat Class    : {mechClass}");
-            Console.WriteLine($"Reactor Level   : {reactorLevel}");
-            Console.WriteLine($"Boost Charge    : {boostCharge}");
-            Console.WriteLine($"Armor Integrity : {armorIntegrity}");
-            Console.WriteLine($"Mission Ready   : {isMissionReady}");
-            Console.WriteLine($"----------------------------------------");
-            Console.WriteLine($"Reactor as double  : {reactorLevelDisplay}");
-            Console.WriteLine($"Armor cast value   : {armorTruncated}");
-            Console.WriteLine($"Armor rounded value: {armorRounded}");
-            Console.WriteLine($"========================================");
+            Console.WriteLine($"+------------------------------+");
+            Console.WriteLine($"|      PET PASSPORT            |");
+            Console.WriteLine($"|      {WorldName}       |");
+            Console.WriteLine($"+------------------------------+");
+            Console.WriteLine($"Companion       : {petName}");
+            Console.WriteLine($"Rarity          : {petRarity}");
+            Console.WriteLine($"Friendship      : {friendshipLevel}");
+            Console.WriteLine($"Snack meter     : {snackMeter}");
+            Console.WriteLine($"Running speed   : {runningSpeed}");
+            Console.WriteLine($"Treasure found  : {hasFoundTreasure}");
+            Console.WriteLine($"+------------------------------+");
+            Console.WriteLine($"DISPLAY CHECK");
+            Console.WriteLine($"Friendship points : {friendshipPoints}");
+            Console.WriteLine($"Speed cut down    : {speedWithoutDecimal}");
+            Console.WriteLine($"Speed rounded     : {speedRounded}");
+            Console.WriteLine($"+------------------------------+");
         }
     }
 }
