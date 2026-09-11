@@ -25,7 +25,8 @@ namespace Lab02
             Console.WriteLine($"Rank: {rank}");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             Console.WriteLine($"Attack Power : {attackPower}");
-            Console.WriteLine($"Crit Multiplier : {critMultiplier}");
+            Console.WriteLine($"Crit Multiplier : {critMultiplier}X");
+            Console.WriteLine($"Crit Multiplier : {critMultiplier}X     ");
             Console.WriteLine($"Is Boss : {isBoss}");
 
             Console.WriteLine();
@@ -115,3 +116,12 @@ namespace Lab02
         }
     }
 }
+
+
+
+
+
+
+
+
+
