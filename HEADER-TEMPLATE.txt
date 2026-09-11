@@ -1,7 +1,7 @@
 /*
- * Student ID :
- * Name       :
- * Section    :
- * No.        :
+ * Student ID : 1690702590
+ * Name       : Nattaphat Kanchanarat
+ * Section    : 129c
+ * No.        : 18
  * Course     : GI113 Computer Programming (GI)
  */
