@@ -1,5 +1,13 @@
-﻿namespace Lab05
-{
+﻿namespace Lab05  
+ /*
+ * Student ID : 1690702590
+ * Name       : Nattaphat Kanchanarat
+ * Section    : 129c
+ * No.        : 18
+ * Course     : GI113 Computer Programming (GI)
+ */
+
+{   
     internal class Program
     {
         static void Main(string[] args)
@@ -31,7 +39,7 @@
             Console.WriteLine($"Monster STATUS VALID: {isMonsterIntValid}");
 
             Console.WriteLine($"[HERO] HP: {heroHp}, ATK: {heroAtk}, DEF: {heroDef}");
-            Console.WriteLine($"[MONSTER] HP: {monsterHp}, ATK: {monsterAtk}, DEF: {monsterDef}")
+            Console.WriteLine($"[MONSTER] HP: {monsterHp}, ATK: {monsterAtk}, DEF: {monsterDef}");
             //bool allIntValid = isHeroIntValid && isMonsterIntValid;
             // ถ้าเอาแค่ชื่อ bool มาเช็คคือเช็คว่าเป๋นจริงมั้ย? แต่ถ่้าใส่ ! ด้านหลังคือตรงข้าม (จรืง -> เท็จ)
 
@@ -55,7 +63,7 @@
             bool isCrit = roll <= 10; // 10% chance จาก 100
             int critDmg = normDng + Convert.ToInt32(isCrit) * normDng; // Bool 1  
             Console.WriteLine($"\nCritical hit rool : {roll} (critical: {isCrit} ");
-            Console.WriteLine($"IF critical, normal attack would instead deal: {critDmg});
+            Console.WriteLine($"IF critical, normal attack would instead deal: {critDmg}");
 
         }
     }
