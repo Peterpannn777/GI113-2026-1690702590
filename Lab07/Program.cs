@@ -1,4 +1,11 @@
-﻿namespace Lab07
+﻿/*
+ * Student ID : 1690702590
+ * Name       : Nattaphat Kanchanarat
+ * Section    : 129c
+ * No.        : 18
+ * Course     : GI113 Computer Programming (GI)
+ */
+namespace Lab07
 {
     internal class Program
     {
