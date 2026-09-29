@@ -1,4 +1,11 @@
-﻿namespace Assignment2
+﻿/*
+ * Student ID : 1690702590
+ * Name       : Nattaphat Kanchanarat
+ * Section    : 129c
+ * No.        : 18
+ * Course     : GI113 Computer Programming (GI)
+ */
+namespace Assignment2
 {
     internal class Program
     {
@@ -15,7 +22,7 @@
             const int MaxBatch = 500;
             const double SmeltRate = 0.25;
             const double SavageRate = 0.3;
-            const string Matetrial = "Metal";
+            const string Matetrial = "Vibra nium";
             char menu;
             double amount;
             bool result;
@@ -31,12 +38,12 @@
                 if (menu == 'S' || menu == 's')
                 {
                     double Ingot = amount * SmeltRate;
-                    Console.WriteLine($"=>{amount} {Matetrial} Ore = {Ingot}{Matetrial} Ingot");
+                    Console.WriteLine($"=>{amount} {Matetrial} Ore = {Ingot} {Matetrial} Ingot");
                 }
                 else if (menu == 'B' || menu == 'b')
                 {
                     double Ore = amount / SavageRate;
-                    Console.WriteLine($"=>{amount} Iron Ingot = {Ore.ToString("#.##")} Iron Ore");
+                    Console.WriteLine($"=>{amount} {Matetrial} Ingot = {Ore.ToString("#.##")} {Matetrial} Ore");
                 }
                 else
                 {
