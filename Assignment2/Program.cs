@@ -15,6 +15,7 @@
             const int MaxBatch = 500;
             const double SmeltRate = 0.25;
             const double SavageRate = 0.3;
+            const string Matetrial = "Metal";
             char menu;
             double amount;
             bool result;
@@ -30,7 +31,7 @@
                 if (menu == 'S' || menu == 's')
                 {
                     double Ingot = amount * SmeltRate;
-                    Console.WriteLine($"=>{amount} Iron Ore = {Ingot} Iron Ingot");
+                    Console.WriteLine($"=>{amount} {Matetrial} Ore = {Ingot}{Matetrial} Ingot");
                 }
                 else if (menu == 'B' || menu == 'b')
                 {
